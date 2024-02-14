@@ -18,7 +18,24 @@ const parent = React.createElement(
                 "I am a h1 tag"
             )
         ]
-    )
+    ),
+    React.createElement(
+        "div",
+        {id: "child2"},
+        [
+            React.createElement(
+                "h1",
+                {},
+                "I am a h1 tag"
+            ),
+            React.createElement(
+                "h1",
+                {},
+                "I am a h1 tag"
+            )
+        ]
+    ),
+
 );
 
 // const heading = React.createElement(
