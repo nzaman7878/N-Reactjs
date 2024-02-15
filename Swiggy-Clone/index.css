@@ -1,24 +1,38 @@
 .header {
     display: flex;
     justify-content: space-between;
-    border: 1px solid black
+    align-items: center; /* Center items vertically */
+    background-color: #fc8019; /* Swiggy orange */
+    padding: 10px 20px; /* Add padding */
 }
 
 .logo {
-    width: 200px;
+    width: 140px;
+    background-color: white; /* Adjust logo size */
 }
 
 .nav-items {
-    padding:  0px 20px;
+    font-size: 18px; /* Reduce font size */
 }
 
 .nav-items > ul {
-    font-size: 24px;
-    display: flex;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 .nav-items > ul > li {
-    padding: 10px;
-    margin: 10px
+    margin: 0 10px; /* Adjust spacing */
+}
+
+.nav-items > ul > li > a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px; /* Add padding */
+}
+
+.nav-items > ul > li > a:hover {
+    background-color: #ffae42; /* Lighter orange on hover */
+    border-radius: 5px; /* Rounded corners on hover */
 }

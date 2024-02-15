@@ -25,7 +25,7 @@ const Header = () => {
         <div className="logo-container">
           <img
             className="logo"
-            src="https://1000logos.net/wp-content/uploads/2021/05/Swiggy-logo-768x432.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png"
           />
         </div>
         <div className="nav-items">
