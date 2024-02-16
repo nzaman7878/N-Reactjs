@@ -1,46 +1,28 @@
-/* Header Styles */
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: #fc8019;
-    padding: 10px 20px;
-   
-    
+    border: 1px solid black
 }
 
 .logo {
-    width: 140px;
-    background-color: white;
+    width: 200px;
 }
 
 .nav-items {
-    font-size: 18px;
+    padding:  0px 20px;
 }
 
 .nav-items > ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    font-size: 24px;
     display: flex;
+    list-style-type: none;
 }
 
 .nav-items > ul > li {
-    margin: 0 10px;
-}
-
-.nav-items > ul > li > a {
-    color: #fff;
-    text-decoration: none;
     padding: 10px;
+    margin: 10px
 }
 
-.nav-items > ul > li > a:hover {
-    background-color: #ffae42;
-    border-radius: 5px;
-}
-
-/* Restaurant Card Styles */
 .res-container {
     display: flex;
     flex-wrap: wrap;
@@ -57,11 +39,15 @@
     border: 1px solid black;
 }
 
+.search {
+    padding: 10px
+}
+
 .res-logo {
     width: 100%;
 }
 
-/* Search Component Styles */
-.search {
-    padding: 10px;
+.filter-btn {
+ margin: 10px;
+ cursor: pointer;
 }
