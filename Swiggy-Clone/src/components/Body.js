@@ -1,7 +1,6 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
-
-
+import Shimmer from "./Shimmer";
 import React from "react";
 const Body = () => {
   // Local State Variable - Super powerful variable
@@ -24,7 +23,9 @@ const Body = () => {
 
 } ;
 
-  return (
+   return listOfRestaurants.length === 0 ? (
+    <Shimmer />
+  ) : (
     <div className="body">
       <div className="filter">
         <button
