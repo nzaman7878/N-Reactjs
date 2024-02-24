@@ -14,7 +14,9 @@ const Body = () => {
   // Whenever state variables update, react triggers a reconciliation cycle(re-renders the component)
   console.log("Body Rendered");
 
-  useEffect(() => {
+ 
+
+ useEffect(() => {
     fetchData();
   }, []);
 
@@ -33,6 +35,7 @@ const Body = () => {
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
+
 
   return listOfRestaurants.length === 0 ? (
     <Shimmer />
